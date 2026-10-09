@@ -33,7 +33,7 @@ It has the following options:
 ## Explanation
 First, we have to access the game via `ssh`. We do not change from the bandit1 shell, as we need a password to access the next level, which is stored in the bandit1 home directory. 
 
-As such, we have the same credentials as last time: 
+As such, we have:
 
 ```bash
 ssh bandit1@bandit.labs.overthewire.org -p 2220

@@ -57,7 +57,7 @@ It has the following options:
 ## Explanation
 First, we have to access the game via `ssh`. We do not change from the bandit3 shell, as we need a password to access the next level, which is stored in the bandit3 home directory. 
 
-As such, we have the same credentials as last time: 
+As such, we have:
 
 ```bash
 ssh bandit3@bandit.labs.overthewire.org -p 2220
@@ -67,7 +67,7 @@ First, let's check out the available directories and files with `ls`. This shows
 
 <img src="./img/bandit4-1.png">
 
-First, we list the contents of the directory using `ls -a`, as we need to view a hidden file. This showed: 
+Then, we `cd` in and list the contents of the directory `inhere` using `ls -a`, as we need to view a hidden file. This showed: 
 
 <img src="./img/bandit4-4.png">
 

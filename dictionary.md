@@ -1,7 +1,5 @@
 # Linux Command Dictionary
-Short Description Here 
-
-
+This file contains a "dictionary" of Linux commands that you may use to solve the bandit levels, plus extras! 
 
 ### `ssh`
 `ssh` stands for **secure shell**. This command allows us to run commands in another device's shell through an encrypted channel. 
@@ -117,7 +115,7 @@ uniq -u example.txt
 
 > **Note:** for full list of options such as `-u` see `dictionary.md`
 
-### `Pipelines`
+### `pipelines`
 
 In the previous subsection, a `|` character was used to separate the two commands. This is known as a **pipeline**. It makes the *output* of the first command the *input* to the second, and so on if there are more than two comands strung together. 
 
@@ -158,3 +156,41 @@ It has the following options:
 | -z | Looks inside compressed files |
 | -s | Forces `file` to read things it would usually ignore. |
 
+### `du`
+
+`du` estimates how much space files take up on your computer.
+
+<p align="center">
+<code>
+du -ab file.txt
+</code>
+</p>
+
+It has the following options:
+
+| Option | Meaning | 
+| ---- | ---- | 
+| -b | Shows the size in bytes | 
+| -a | Estimates the size for all files |
+| -c | Produces a grand total |
+| -h | Prints sizes in a human-readable format |
+
+
+### `grep`
+
+`grep` searches for content within files. It then prints out the matching lines.
+
+<p align="center">
+<code>
+grep -i 'hello world' menu.h main.c
+</code>
+</p>
+
+It has the following options:
+
+| Option | Meaning | 
+| ---- | ---- | 
+| -i | Ignores the case | 
+| -w | Matches whole words |
+| -x | Matches whole lines |
+| -v | Displays non-matching lines |

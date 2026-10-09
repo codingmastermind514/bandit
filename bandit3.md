@@ -35,7 +35,7 @@ It has the following options:
 ## Explanation
 First, we have to access the game via `ssh`. We do not change from the bandit2 shell, as we need a password to access the next level, which is stored in the bandit2 home directory. 
 
-As such, we have the same credentials as last time: 
+As such, we have:
 
 ```bash
 ssh bandit2@bandit.labs.overthewire.org -p 2220
@@ -43,11 +43,11 @@ ssh bandit2@bandit.labs.overthewire.org -p 2220
 
 First, we list the contents of the home directory using `ls`. This showed: 
 
-<img src="./img/bandit3-ls.png">
+<img src="./img/bandit3-1.png">
 
 From there, we decided to `cd` into the proper directory and open and read the file using `cat ./"--spaces in this filename--"`. 
 
-<img src="./img/bandit3-passwd.png">
+<img src="./img/bandit3-2.png">
 
 > NOTES:
 > 
