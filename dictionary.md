@@ -1,8 +1,6 @@
 # Linux Command Dictionary
 Short Description Here 
 
-## Searching 
-Short Description Here 
 
 
 ### `ssh`
@@ -14,8 +12,7 @@ ssh user@host -p 1234
 </code>
 </p>
 
-**Note**: The port is usually a four-digit number. It varies based on the login. Be sure to use your own. 
-
+**Note**: The port is usually a four-digit number. It varies based on the login and service. Be sure to use the right one.
 
 `ssh` has the following options:
 
@@ -141,3 +138,23 @@ ls /sandbox | cat
 </p>
 
 the end result would be the contents of `people.txt`.
+
+
+### `file`
+`file` displays information about a file by searching for signatures in the file that indicate its type, regardless of its name or file extension. They can be useful for identifying whether a file is human-readable or not. 
+
+<p align="center">
+<code>
+file -b mysteryfile
+</code>
+</p>
+
+It has the following options:
+
+| Option | Meaning | 
+| ---- | ---- | 
+| -b | Only shows the file type | 
+| -i | Outputs the MIME type |
+| -z | Looks inside compressed files |
+| -s | Forces `file` to read things it would usually ignore. |
+
