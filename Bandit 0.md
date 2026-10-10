@@ -21,7 +21,7 @@ This level asks...
 >
 > The username is bandit0 and the password is bandit0. 
 
-## Necessary Commands
+## Background
 For a full list of commands, see `dictionary.md`. 
 
 ### `ssh`

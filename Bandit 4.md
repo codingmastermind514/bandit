@@ -11,7 +11,7 @@ cd inhere ; ls -a ; cat ...Hiding-From-You
 This level asks:
 > The password for the next level is stored in a hidden file in the inhere directory.
 
-## Necessary commands
+## Background
 See `dictionary.md` for a full list of commands.
 
 ### `cat` 
@@ -55,15 +55,13 @@ It has the following options:
 
 
 ## Explanation
-First, we have to access the game via `ssh`. We do not change from the bandit3 shell, as we need a password to access the next level, which is stored in the bandit3 home directory. 
-
-As such, we have:
+First, we have to access the game via `ssh`.
 
 ```bash
 ssh bandit3@bandit.labs.overthewire.org -p 2220
 ```
 
-First, let's check out the available directories and files with `ls`. This shows us a directory called `inhere`, which we can `cd` into. 
+Then, let's check out the available directories and files with `ls`. This shows us a directory called `inhere`, which we can `cd` into. 
 
 <img src="./img/bandit4-1.png">
 

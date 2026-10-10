@@ -15,7 +15,8 @@ This level asks:
 >    * 1033 bytes in size
 >    * not executable
 
-## Necessary commands
+## Background
+See `dictionary.md` for a full list of commands.
 
 ### `pipelines`
 
@@ -76,15 +77,13 @@ It has the following options:
 | -v | Displays non-matching lines |
 
 ## Explanation
-First, we have to access the game via `ssh`. We do not change from the [PREV LEVEL] shell, as we need a password to access the next level, which is stored in the [PREV LEVEL] home directory. 
-
-As such, we have:
+First, we have to access the game via `ssh`. 
 
 ```bash
 ssh bandit5@bandit.labs.overthewire.org -p 2220
 ```
 
-First, we need to view the home directory. We `cd` into `inhere` and list files, which gives us: 
+Then, we need to view the home directory. We `cd` into `inhere` and list files, which gives us: 
 
 <img src="./img/bandit6-1.png">
 

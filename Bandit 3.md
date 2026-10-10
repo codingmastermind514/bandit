@@ -11,7 +11,7 @@ cat ./"--spaces in this filename--"
 This level asks:
 > The password for the next level is stored in a file called --spaces in this filename-- located in the home directory
 
-## Necessary commands
+## Background
 See `dictionary.md` for a full list of commands.
 
 ### `cat` 
@@ -33,15 +33,13 @@ It has the following options:
 
 
 ## Explanation
-First, we have to access the game via `ssh`. We do not change from the bandit2 shell, as we need a password to access the next level, which is stored in the bandit2 home directory. 
-
-As such, we have:
+First, we have to access the game via `ssh`.
 
 ```bash
 ssh bandit2@bandit.labs.overthewire.org -p 2220
 ```
 
-First, we list the contents of the home directory using `ls`. This showed: 
+Then, we list the contents of the home directory using `ls`. This showed: 
 
 <img src="./img/bandit3-1.png">
 

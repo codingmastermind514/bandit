@@ -194,3 +194,49 @@ It has the following options:
 | -w | Matches whole words |
 | -x | Matches whole lines |
 | -v | Displays non-matching lines |
+
+### `find`
+
+`find` searches for file names and specifications such as the user and group who own the file as well as the file size.
+
+<p align="center">
+<code>
+find / example.txt
+</code>
+</p>
+
+It has the following options:
+
+| Option | Meaning | 
+| ---- | ---- | 
+| -E | Searches using `regex` ✪ | 
+| -f | Adds the path provided to the list of paths that need to be recursed into|
+| -x | Prevents `find` recursing into a directory with a device number different from the original |
+
+> ✪ Regex (a.k.a regular expressions) are basically patterns in text, with special characters that indicate special things, such as `*` which means **all**.
+
+### `Redirection`
+
+`Redirection` sends output, input or errors of commands to different locations. The three streams it works on are `0, stdin` (all input), `1, stdout` (all output) and `2, stderr` (all errors). 
+
+Here's what each symbol for redirection means:
+
+| Symbol | Meaning | 
+| ---- | ---- | 
+| >> | Appends output to the end of a file, new or preexisting | 
+| > | Sends output to a file, overwriting its contents | 
+| < | Sends the contents of a file to the input of a command | 
+| 2>> | Appends errors to the end of a file, new or preexisting. | 
+| 2> | Sends errors to a file, overwriting its contents | 
+| &> | Sends errors and output to a file, overwriting its contents | 
+| &>> | Appends errors and output to the end of a file, new or preexisting. | 
+
+To use these, simply put them at the ends of commands:
+
+<p align="center">
+<code>
+cat passwords.txt >> confidental.txt
+</code>
+</p>
+
+This would redirect the output of the first command to `confidential.txt`, perhaps creating the new file or appending to the end of a preexisting one.

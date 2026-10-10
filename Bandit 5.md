@@ -13,7 +13,8 @@ This level asks:
 > The password for the next level is stored in the only human-readable file in the inhere directory. Tip: if your terminal is messed up, try the “reset” command.
 
 
-## Necessary commands
+## Background
+See `dictionary.md` for a full list of commands.
 
 
 ### `file`
@@ -33,9 +34,7 @@ It has the following options:
 | -s | Forces `file` to read things it would usually ignore. |
 
 ## Explanation
-First, we have to access the game via `ssh`. We do not change from the bandit4 shell, as we need a password to access the next level, which is stored in the bandit4 home directory. 
-
-As such, we have:
+First, we have to access the game via `ssh`. 
 
 ```bash
 ssh bandit4@bandit.labs.overthewire.org -p 2220
