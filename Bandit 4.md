@@ -53,6 +53,25 @@ It has the following options:
 
 > ✪ ✪ K means kilobytes, M means megabytes, and G means gigabytes
 
+### `cd`
+`cd` indexes into a specific directory. 
+<p align="center">
+<code>
+cd path/to/directory
+</code>
+</p>
+
+Here are some examples:
+
+| Example | Meaning | 
+| ---- | ---- | 
+| `cd ..` | Indexes into the parent directory | 
+| `cd` | Indexes into the home directory | 
+| `cd /` | Takes you to the absolute root of the computer |
+| `cd ./` | Indexes into the current directory |
+| `cd -` | Takes you back to the previous folder you came from |
+
+
 
 ## Explanation
 First, we have to access the game via `ssh`.

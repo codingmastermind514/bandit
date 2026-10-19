@@ -83,37 +83,56 @@ It has the following options:
 ### `sort`
 The `sort` command **sorts** the contents of the file in alphabetical order. 
 
-The format is as follows: 
-
 <p align="center">
 <code>
-sort example.txt
+sort file.txt
 </code>
 </p>
+
+It has the following options:
+
+| Option | Meaning | 
+| ---- | ---- | 
+| -f | Ignores the case | 
+| -u | Only displays unique items |
+| -n | Sorts based on numeric value |
+| -R | Random sort|
+
 
 ### `uniq`
 The `uniq` command smashes all duplicate adjacent lines into one. For example, 
 
 ```
 hello
-hello 
-hello 
-hi 
+hello
+hello
+hi
 ```
 
-gets collapsed into
+becomes 
+
 ```
 hello
 hi
 ```
-The format is as follows
+
+It is often used in conjunction with `sort` because the duplicate lines must be adjacent to collapse them. When you sort something, the duplicate lines will be next to each other, and a **pipeline** is used in between the commands.
+
 <p align="center">
 <code>
-uniq -u example.txt
+sort file.txt | uniq 
 </code>
 </p>
 
-> **Note:** for full list of options such as `-u` see `dictionary.md`
+It has the following options:
+
+| Option | Meaning | 
+| ---- | ---- | 
+| -f | Ignores the case | 
+| -u | Only displays unique items |
+| -n | Sorts based on numeric value |
+| -R | Random sort|
+
 
 ### `pipelines`
 

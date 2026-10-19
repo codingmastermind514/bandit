@@ -79,13 +79,13 @@ After seeing this, that there are no files that we can check but many possible d
 
 To do so, we will use `find /`. The slash searches from the root.
 
-According to the level, the file's user is `bandit7`, the group is `bandit6`, and the size is `33c` or 33 bytes.
+According to the level, the file's `-user` is `bandit7`, the `-group` is `bandit6`, and the `-size` is `33c` or 33 bytes.
 
 <img src="./img/bandit7-2.png">
 
 We see in the output that almost everything has denied us permission to inspect the file. These are all errors, which we need to get rid of.
 
-We do so by `redirecting` the unnecessary output to `/dev/null`, which is basically sending it to nowhere.
+We do so by `redirecting` the unnecessary output to `/dev/null`, which is basically sending it to nowhere. We use `2>>`.  This symbol redirects all errors and appends them to the end of the specified file. 
 
 <img src="./img/bandit7-3.png">
 
