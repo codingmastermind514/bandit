@@ -8,14 +8,14 @@ This walkthrough, which is a work-in-progress, acts as an ongoing record of my l
 
 ### Walkthroughs
 
-Here is the full list of walkthroughs, last updated on [DATE]. The full dictionary of commands needed for thsis walkthrough is linked below.
+Here is the full list of walkthroughs, last updated on 24.10.2026. The full dictionary of commands needed for this walkthrough is linked below.
 
-[Command dictionary](./dictionary.md)
+[Command dictionary](./dictionary)
 
 <p style='font-size:14px'>
 <b>
     <img src = "./img/minecraft/apple.png" height=20 style='margin-bottom:-5'>  
-    <a href='./bandit0.md'>Level 0</a>.
+    <a href='./bandit0'>Level 0</a>.
 </b> 
     <i>Using SSH.</i>
 </p>
@@ -23,7 +23,7 @@ Here is the full list of walkthroughs, last updated on [DATE]. The full dictiona
 <p style='font-size:14px'>
 <b>
     <img src = "./img/minecraft/melonslice.png" height=20 style='margin-bottom:-5'>  
-    <a href='./bandit1.md'>Level 0→1</a>.
+    <a href='./bandit1'>Level 0→1</a>.
 </b> 
     <i>Opening files.</i>
 </p>
@@ -31,7 +31,7 @@ Here is the full list of walkthroughs, last updated on [DATE]. The full dictiona
 <p style='font-size:14px'>
 <b>
     <img src = "./img/minecraft/honeycomb.png" height=20 style='margin-bottom:-5'>  
-    <a href='./bandit2.md'>Level 1→2</a>.
+    <a href='./bandit2'>Level 1→2</a>.
 </b> 
     <i>Opening files with spaces.</i>
 </p>
@@ -39,7 +39,7 @@ Here is the full list of walkthroughs, last updated on [DATE]. The full dictiona
 <p style='font-size:14px'>
 <b>
     <img src = "./img/minecraft/honeybottle.png" height=20 style='margin-bottom:-5'>  
-    <a href='./bandit3.md'>Level 2→3</a>.
+    <a href='./bandit3'>Level 2→3</a>.
 </b> 
     <i>Opening files with special characters.</i>
 </p>
@@ -47,7 +47,7 @@ Here is the full list of walkthroughs, last updated on [DATE]. The full dictiona
 <p style='font-size:14px'>
 <b>
     <img src = "./img/minecraft/golden.png" height=20 style='margin-bottom:-5'>  
-    <a href='./bandit4.md'>Level 3→4</a>.
+    <a href='./bandit4'>Level 3→4</a>.
 </b> 
     <i>Viewing hidden files.</i>
 </p>
@@ -55,7 +55,7 @@ Here is the full list of walkthroughs, last updated on [DATE]. The full dictiona
 <p style='font-size:14px'>
 <b>
     <img src = "./img/minecraft/pufferfish.png" height=20 style='margin-bottom:-5'>  
-    <a href='./bandit5.md'>Level 4→5</a>.
+    <a href='./bandit5'>Level 4→5</a>.
 </b> 
     <i>Human-readable files.</i>
 </p>
@@ -63,7 +63,7 @@ Here is the full list of walkthroughs, last updated on [DATE]. The full dictiona
 <p style='font-size:14px'>
 <b>
     <img src = "./img/minecraft/book.png" height=20 style='margin-bottom:-5'>  
-    <a href='./bandit6.md'>Level 5→6</a>.
+    <a href='./bandit6'>Level 5→6</a>.
 </b> 
     <i>Properties of files.</i>
 </p>
@@ -71,7 +71,7 @@ Here is the full list of walkthroughs, last updated on [DATE]. The full dictiona
 <p style='font-size:14px'>
 <b>
     <img src = "./img/minecraft/emerald.png" height=20 style='margin-bottom:-5'>  
-    <a href='./bandit7.md'>Level 6→7</a>.
+    <a href='./bandit7'>Level 6→7</a>.
 </b> 
     <i>Searching for files with <code>find</code>.</i>
 </p>
@@ -79,7 +79,7 @@ Here is the full list of walkthroughs, last updated on [DATE]. The full dictiona
 <p style='font-size:14px'>
 <b>
     <img src = "./img/minecraft/diamond.png" height=20 style='margin-bottom:-5'>  
-    <a href='./bandit8.md'>Level 7→8</a>.
+    <a href='./bandit8'>Level 7→8</a>.
 </b> 
     <i>Searching file contents using <code>grep</code>.</i>
 </p>
@@ -87,7 +87,7 @@ Here is the full list of walkthroughs, last updated on [DATE]. The full dictiona
 <p style='font-size:14px'>
 <b>
     <img src = "./img/minecraft/sea.png" height=20 style='margin-bottom:-5'>  
-    <a href='./bandit9.md'>Level 8→9</a>.
+    <a href='./bandit9'>Level 8→9</a>.
 </b> 
     <i><code>sort</code> and <code>uniq</code>.</i>
 </p>
