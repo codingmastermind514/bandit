@@ -1,5 +1,6 @@
 # Linux Command Dictionary
-This file contains a "dictionary" of Linux commands that you may use to solve the bandit levels, plus extras! 
+This file contains a "dictionary" of Linux commands that you may use to solve the `bandit` levels, plus extras! 
+
 
 ## Basic Commands
 ### `ssh`
@@ -21,6 +22,12 @@ ssh user@host -p 1234
 | -4 | Forces the use of IPv4 addresses | 
 | -6 | Forces the use of IPv6 addresses |
 
+&nbsp;
+
+---
+
+&nbsp;
+
 ### `cd`
 `cd` indexes into a specific directory. 
 <p align="center">
@@ -38,6 +45,12 @@ Here are some examples:
 | `cd /` | Takes you to the absolute root of the computer |
 | `cd ./` | Indexes into the current directory |
 | `cd -` | Takes you back to the previous folder you came from |
+
+&nbsp;
+
+---
+
+&nbsp;
 
 
 ### `ls`
@@ -62,7 +75,11 @@ It has the following options:
 
 > ✪ ✪ K means kilobytes, M means megabytes, and G means gigabytes
 
+&nbsp;
 
+---
+
+&nbsp;
 
 ## Reading Files
 ### `cat`
@@ -81,6 +98,34 @@ It has the following options:
 | -s | Squeezes the blank lines into one | 
 | -T | Shows all tab characters as ^I |
 | -b | Numbers only the non-blank lines |
+
+&nbsp;
+
+---
+
+&nbsp;
+
+### `strings`
+`strings` reads a file byte by byte and prints every run pf 4 or more printable characters in a row. It works on *any* file, even ones that `cat` can't show. Sometimes unreadable files contain messages, file paths, URLs and maybe passwords someone forgot to remove. It's safer than `cat` because it never runs the file.
+<p align="center">
+<code>
+strings -n 8 mystery.bin
+</code>
+</p>
+
+It has the following options:
+
+| Option | Meaning | 
+| ---- | ---- | 
+| -n 8| Only shpws runs of 8 or more characters | 
+| -t d | Shows where each string starts in the file | 
+| -e l | Looks or 16-bit text (common in Windows programs) |
+
+&nbsp;
+
+---
+
+&nbsp;
 
 ## File Information
 ### `file`
@@ -101,6 +146,12 @@ It has the following options:
 | -z | Looks inside compressed files |
 | -s | Forces `file` to read things it would usually ignore. |
 
+&nbsp;
+
+---
+
+&nbsp;
+
 ### `du`
 
 `du` estimates how much space files take up on your computer.
@@ -119,6 +170,12 @@ It has the following options:
 | -a | Estimates the size for all files |
 | -c | Produces a grand total |
 | -h | Prints sizes in a human-readable format |
+
+&nbsp;
+
+---
+
+&nbsp;
 
 
 ## Searching and Sorting
@@ -141,6 +198,12 @@ It has the following options:
 | -x | Matches whole lines |
 | -v | Displays non-matching lines |
 
+&nbsp;
+
+---
+
+&nbsp;
+
 ### `find`
 
 `find` searches for file names and specifications such as the user and group who own the file as well as the file size.
@@ -161,6 +224,12 @@ It has the following options:
 
 > ✪ Regex (a.k.a regular expressions) are basically patterns in text, with special characters that indicate special things, such as `*` which means **all**.
 
+&nbsp;
+
+---
+
+&nbsp;
+
 ### `sort`
 The `sort` command **sorts** the contents of the file in alphabetical order. 
 
@@ -178,6 +247,13 @@ It has the following options:
 | -u | Only displays unique items |
 | -n | Sorts based on numeric value |
 | -R | Random sort|
+
+
+&nbsp;
+
+---
+
+&nbsp;
 
 
 ### `uniq`
@@ -214,7 +290,11 @@ It has the following options:
 | -n | Sorts based on numeric value |
 | -R | Random sort|
 
+&nbsp;
 
+---
+
+&nbsp;
 
 ## Theory
 ### `pipelines`
@@ -238,6 +318,12 @@ ls /sandbox | cat
 </p>
 
 the end result would be the contents of `people.txt`.
+
+&nbsp;
+
+---
+
+&nbsp;
 
 ### `Redirection`
 
@@ -264,3 +350,10 @@ cat passwords.txt >> confidental.txt
 </p>
 
 This would redirect the output of the first command to `confidential.txt`, perhaps creating the new file or appending to the end of a preexisting one.
+
+
+&nbsp;
+
+---
+
+&nbsp;
