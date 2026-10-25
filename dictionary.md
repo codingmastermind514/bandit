@@ -1,6 +1,7 @@
 # Linux Command Dictionary
 This file contains a "dictionary" of Linux commands that you may use to solve the bandit levels, plus extras! 
 
+## Basic Commands
 ### `ssh`
 `ssh` stands for **secure shell**. This command allows us to run commands in another device's shell through an encrypted channel. 
 
@@ -19,25 +20,6 @@ ssh user@host -p 1234
 | -p | The port that you are connecting to | 
 | -4 | Forces the use of IPv4 addresses | 
 | -6 | Forces the use of IPv6 addresses |
-
-
-### `cat`
-`cat` takes one or more files and pours out the content in order as a single stream. 
-<p align="center">
-<code>
-cat -n a.txt b.txt
-</code>
-</p>
-
-It has the following options:
-
-| Option | Meaning | 
-| ---- | ---- | 
-| -n | Numbers the lines | 
-| -s | Squeezes the blank lines into one | 
-| -T | Shows all tab characters as ^I |
-| -b | Numbers only the non-blank lines |
-
 
 ### `cd`
 `cd` indexes into a specific directory. 
@@ -79,6 +61,105 @@ It has the following options:
 > ✪ Hidden files are ones whose name starts with a dot, for example `.bashrc`
 
 > ✪ ✪ K means kilobytes, M means megabytes, and G means gigabytes
+
+
+
+## Reading Files
+### `cat`
+`cat` takes one or more files and pours out the content in order as a single stream. 
+<p align="center">
+<code>
+cat -n a.txt b.txt
+</code>
+</p>
+
+It has the following options:
+
+| Option | Meaning | 
+| ---- | ---- | 
+| -n | Numbers the lines | 
+| -s | Squeezes the blank lines into one | 
+| -T | Shows all tab characters as ^I |
+| -b | Numbers only the non-blank lines |
+
+## File Information
+### `file`
+`file` displays information about a file by searching for signatures in the file that indicate its type, regardless of its name or file extension. They can be useful for identifying whether a file is human-readable or not. 
+
+<p align="center">
+<code>
+file -b mysteryfile
+</code>
+</p>
+
+It has the following options:
+
+| Option | Meaning | 
+| ---- | ---- | 
+| -b | Only shows the file type | 
+| -i | Outputs the MIME type |
+| -z | Looks inside compressed files |
+| -s | Forces `file` to read things it would usually ignore. |
+
+### `du`
+
+`du` estimates how much space files take up on your computer.
+
+<p align="center">
+<code>
+du -ab file.txt
+</code>
+</p>
+
+It has the following options:
+
+| Option | Meaning | 
+| ---- | ---- | 
+| -b | Shows the size in bytes | 
+| -a | Estimates the size for all files |
+| -c | Produces a grand total |
+| -h | Prints sizes in a human-readable format |
+
+
+## Searching and Sorting
+### `grep`
+
+`grep` searches for content within files. It then prints out the matching lines.
+
+<p align="center">
+<code>
+grep -i 'hello world' menu.h main.c
+</code>
+</p>
+
+It has the following options:
+
+| Option | Meaning | 
+| ---- | ---- | 
+| -i | Ignores the case | 
+| -w | Matches whole words |
+| -x | Matches whole lines |
+| -v | Displays non-matching lines |
+
+### `find`
+
+`find` searches for file names and specifications such as the user and group who own the file as well as the file size.
+
+<p align="center">
+<code>
+find / example.txt
+</code>
+</p>
+
+It has the following options:
+
+| Option | Meaning | 
+| ---- | ---- | 
+| -E | Searches using `regex` ✪ | 
+| -f | Adds the path provided to the list of paths that need to be recursed into|
+| -x | Prevents `find` recursing into a directory with a device number different from the original |
+
+> ✪ Regex (a.k.a regular expressions) are basically patterns in text, with special characters that indicate special things, such as `*` which means **all**.
 
 ### `sort`
 The `sort` command **sorts** the contents of the file in alphabetical order. 
@@ -134,6 +215,8 @@ It has the following options:
 | -R | Random sort|
 
 
+
+## Theory
 ### `pipelines`
 
 In the previous subsection, a `|` character was used to separate the two commands. This is known as a **pipeline**. It makes the *output* of the first command the *input* to the second, and so on if there are more than two comands strung together. 
@@ -155,84 +238,6 @@ ls /sandbox | cat
 </p>
 
 the end result would be the contents of `people.txt`.
-
-
-### `file`
-`file` displays information about a file by searching for signatures in the file that indicate its type, regardless of its name or file extension. They can be useful for identifying whether a file is human-readable or not. 
-
-<p align="center">
-<code>
-file -b mysteryfile
-</code>
-</p>
-
-It has the following options:
-
-| Option | Meaning | 
-| ---- | ---- | 
-| -b | Only shows the file type | 
-| -i | Outputs the MIME type |
-| -z | Looks inside compressed files |
-| -s | Forces `file` to read things it would usually ignore. |
-
-### `du`
-
-`du` estimates how much space files take up on your computer.
-
-<p align="center">
-<code>
-du -ab file.txt
-</code>
-</p>
-
-It has the following options:
-
-| Option | Meaning | 
-| ---- | ---- | 
-| -b | Shows the size in bytes | 
-| -a | Estimates the size for all files |
-| -c | Produces a grand total |
-| -h | Prints sizes in a human-readable format |
-
-
-### `grep`
-
-`grep` searches for content within files. It then prints out the matching lines.
-
-<p align="center">
-<code>
-grep -i 'hello world' menu.h main.c
-</code>
-</p>
-
-It has the following options:
-
-| Option | Meaning | 
-| ---- | ---- | 
-| -i | Ignores the case | 
-| -w | Matches whole words |
-| -x | Matches whole lines |
-| -v | Displays non-matching lines |
-
-### `find`
-
-`find` searches for file names and specifications such as the user and group who own the file as well as the file size.
-
-<p align="center">
-<code>
-find / example.txt
-</code>
-</p>
-
-It has the following options:
-
-| Option | Meaning | 
-| ---- | ---- | 
-| -E | Searches using `regex` ✪ | 
-| -f | Adds the path provided to the list of paths that need to be recursed into|
-| -x | Prevents `find` recursing into a directory with a device number different from the original |
-
-> ✪ Regex (a.k.a regular expressions) are basically patterns in text, with special characters that indicate special things, such as `*` which means **all**.
 
 ### `Redirection`
 
