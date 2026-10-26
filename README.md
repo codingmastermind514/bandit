@@ -95,7 +95,7 @@ Here is the full list of walkthroughs, last updated on 26.10.2026. The full dict
 <p style='font-size:14px'>
 <b>
     <img src = "./img/minecraft/sea.png" height=20 style='margin-bottom:-5'>  
-    <a href='./bandit0'>Level 9→10</a>.
+    <a href='./bandit10'>Level 9→10</a>.
 </b> 
     <i>Using <code>strings</code>.</i>
 </p>
