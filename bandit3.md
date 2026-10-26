@@ -12,7 +12,7 @@ This level asks:
 > The password for the next level is stored in a file called --spaces in this filename-- located in the home directory
 
 ## Background
-See `dictionary.md` for a full list of commands.
+See <a href='./dictionary'>`dictionary.md`</a> for a full list of commands.
 
 ### `cat` 
 `cat` takes one or more files and pours out the content in order as a single stream. 

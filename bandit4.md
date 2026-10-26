@@ -12,24 +12,9 @@ This level asks:
 > The password for the next level is stored in a hidden file in the inhere directory.
 
 ## Background
-See `dictionary.md` for a full list of commands.
+See <a href='./dictionary'>`dictionary.md`</a> for a full list of commands.
 
-### `cat` 
-`cat` takes one or more files and pours out the content in order as a single stream. 
-<p align="center">
-<code>
-cat -n a.txt b.txt
-</code>
-</p>
-
-It has the following options:
-
-| Option | Meaning | 
-| ---- | ---- | 
-| -n | Numbers the lines | 
-| -s | Squeezes the blank lines into one | 
-| -T | Shows all tab characters as ^I |
-| -b | Numbers only the non-blank lines |
+**Previous Commands:** `cat`
 
 ### `ls`
 `ls`, which stands for list, **lists** the contents of a directory

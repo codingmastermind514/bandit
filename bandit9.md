@@ -12,7 +12,7 @@ This level asks:
 > The password for the next level is stored in the file data.txt and is the only line of text that occurs only once
 
 ## Background
-See `dictionary.md` for a full list of commands.
+See <a href='./dictionary'>`dictionary.md`</a> for a full list of commands.
 
 ### `sort`
 The `sort` command **sorts** the contents of the file in alphabetical order. 

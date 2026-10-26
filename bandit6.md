@@ -16,7 +16,7 @@ This level asks:
 >    * not executable
 
 ## Background
-See `dictionary.md` for a full list of commands.
+See <a href='./dictionary'>`dictionary.md`</a> for a full list of commands.
 
 ### `pipelines`
 

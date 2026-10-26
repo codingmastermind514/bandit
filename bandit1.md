@@ -15,7 +15,7 @@ This level asks...
 > Use this password to log into bandit1 using SSH. Whenever you find a password for a level, use SSH (on port 2220) to log into that level and continue the game.
 
 ## Background
-For a full list of commands, see `dictionary.md`. 
+See <a href='./dictionary'>`dictionary.md`</a> for a full list of commands.
 
 ### `cat`
 `cat` takes one or more files and pours out the content in order as a single stream. 

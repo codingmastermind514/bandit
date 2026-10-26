@@ -12,7 +12,9 @@ This level asks:
 > The password for the next level is stored in the file data.txt in one of the few human-readable strings, preceded by several ‘=’ characters.
 
 ## Background
-See <a href='./dictionary#strings'>`dictionary.md`</a> for a full list of commands.
+See <a href='./dictionary'>`dictionary.md`</a> for a full list of commands.
+
+**Previous Commands:** `grep`
 
 ### `strings`
 `strings` reads a file byte by byte and prints every run pf 4 or more printable characters in a row. It works on *any* file, even ones that `cat` can't show. Sometimes unreadable files contain messages, file paths, URLs and maybe passwords someone forgot to remove. It's safer than `cat` because it never runs the file.

@@ -12,7 +12,9 @@ This level asks:
 > The password for the next level is stored in the file data.txt next to the word millionth
 
 ## Background
-See `dictionary.md` for a full list of commands.
+See <a href='./dictionary'>`dictionary.md`</a> for a full list of commands.
+
+**Previous Commands:** `cat`
 
 ### `grep`
 

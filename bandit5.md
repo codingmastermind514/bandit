@@ -14,8 +14,9 @@ This level asks:
 
 
 ## Background
-See `dictionary.md` for a full list of commands.
+See <a href='./dictionary'>`dictionary.md`</a> for a full list of commands.
 
+**Previous Commands:** `cat`, `ls`, `cd`
 
 ### `file`
 `file` displays information about a file by searching for signatures in the file that indicate its type, regardless of its name or file extension. They can be useful for identifying whether a file is human-readable or not. 

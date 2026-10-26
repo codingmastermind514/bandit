@@ -105,8 +105,7 @@ It has the following options:
 
 &nbsp;
 
-<h3 id='strings'><code> strings </code></h3>
-
+### `strings`
 `strings` reads a file byte by byte and prints every run pf 4 or more printable characters in a row. It works on *any* file, even ones that `cat` can't show. Sometimes unreadable files contain messages, file paths, URLs and maybe passwords someone forgot to remove. It's safer than `cat` because it never runs the file.
 <p align="center">
 <code>

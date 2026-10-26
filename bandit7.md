@@ -16,7 +16,9 @@ This level asks:
 > * 33 bytes in size
 
 ## Background
-See `dictionary.md` for a full list of commands.
+See <a href='./dictionary'>`dictionary.md`</a> for a full list of commands. 
+
+**Previous Commands:** `cat`
 
 ### `find`
 

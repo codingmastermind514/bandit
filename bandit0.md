@@ -22,7 +22,7 @@ This level asks...
 > The username is bandit0 and the password is bandit0. 
 
 ## Background
-For a full list of commands, see `dictionary.md`. 
+See <a href='./dictionary'>`dictionary.md`</a> for a full list of commands.
 
 ### `ssh`
 Today, we will use the `ssh` or **secure shell** command. This command opens an encrypted shell on another device on the network.
