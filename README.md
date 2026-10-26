@@ -8,7 +8,7 @@ This walkthrough, which is a work-in-progress, acts as an ongoing record of my l
 
 ### Walkthroughs
 
-Here is the full list of walkthroughs, last updated on 24.10.2026. The full dictionary of commands needed for this walkthrough is linked below.
+Here is the full list of walkthroughs, last updated on 26.10.2026. The full dictionary of commands needed for this walkthrough is linked below.
 
 [Command dictionary](./dictionary)
 
