@@ -105,7 +105,8 @@ It has the following options:
 
 &nbsp;
 
-### `strings`
+<h3 id='strings'><code> strings </code></h3>
+
 `strings` reads a file byte by byte and prints every run pf 4 or more printable characters in a row. It works on *any* file, even ones that `cat` can't show. Sometimes unreadable files contain messages, file paths, URLs and maybe passwords someone forgot to remove. It's safer than `cat` because it never runs the file.
 <p align="center">
 <code>
@@ -117,7 +118,7 @@ It has the following options:
 
 | Option | Meaning | 
 | ---- | ---- | 
-| -n 8| Only shpws runs of 8 or more characters | 
+| -n 8 | Only shows runs of 8 or more characters | 
 | -t d | Shows where each string starts in the file | 
 | -e l | Looks or 16-bit text (common in Windows programs) |
 
