@@ -59,7 +59,7 @@ This prompts us to enter our password, `bandit0`, and finally, we're in!
 <tr>
 <td style="text-align:left;"><a href='./404'>
 ​​✰🇵​​🇷​​🇪​​🇻​​​✰</a></td>
-<td style="text-align:center;"><a href='./README'>​✰​🇭​​🇴​​🇲​​🇪​✰​​</a></td>
+<td style="text-align:center;"><a href='./index'>​✰​🇭​​🇴​​🇲​​🇪​✰​​</a></td>
 <td style="text-align:right;"><a href='./bandit1'>​✰​🇳​​🇪​​🇽​​🇹​✰​​</a></td>
 </tr>
 

@@ -117,7 +117,7 @@ As you can see, once we `sort` the file, duplicate entries are adjacent. This ca
 <tr>
 <td style="text-align:left;"><a href='./bandit8'>
 ​​✰🇵​​🇷​​🇪​​🇻​​​✰</a></td>
-<td style="text-align:center;"><a href='./README'>​✰​🇭​​🇴​​🇲​​🇪​✰​​</a></td>
+<td style="text-align:center;"><a href='./index'>​✰​🇭​​🇴​​🇲​​🇪​✰​​</a></td>
 <td style="text-align:right;"><a href='./bandit10'>​✰​🇳​​🇪​​🇽​​🇹​✰​​</a></td>
 </tr>
 

@@ -108,7 +108,7 @@ We've found the file! This must contain the password. We open it to find it does
 <tr>
 <td style="text-align:left;"><a href='./bandit5'>
 ​​✰🇵​​🇷​​🇪​​🇻​​​✰</a></td>
-<td style="text-align:center;"><a href='./README'>​✰​🇭​​🇴​​🇲​​🇪​✰​​</a></td>
+<td style="text-align:center;"><a href='./index'>​✰​🇭​​🇴​​🇲​​🇪​✰​​</a></td>
 <td style="text-align:right;"><a href='./bandit7'>​✰​🇳​​🇪​​🇽​​🇹​✰​​</a></td>
 </tr>
 

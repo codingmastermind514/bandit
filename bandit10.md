@@ -62,7 +62,7 @@ And finally, we have the password!
 <tr>
 <td style="text-align:left;"><a href='./bandit9'>
 ​​✰🇵​​🇷​​🇪​​🇻​​​✰</a></td>
-<td style="text-align:center;"><a href='./README'>​✰​🇭​​🇴​​🇲​​🇪​✰​​</a></td>
+<td style="text-align:center;"><a href='./index'>​✰​🇭​​🇴​​🇲​​🇪​✰​​</a></td>
 <td style="text-align:right;"><a href='./404'>​✰​🇳​​🇪​​🇽​​🇹​✰​​</a></td>
 </tr>
 

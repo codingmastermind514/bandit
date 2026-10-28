@@ -93,7 +93,7 @@ From here, we need to exit the Level 3 SSH connection and SSH into the Level 4 c
 <tr>
 <td style="text-align:left;"><a href='./bandit3'>
 ​​✰🇵​​🇷​​🇪​​🇻​​​✰</a></td>
-<td style="text-align:center;"><a href='./README'>​✰​🇭​​🇴​​🇲​​🇪​✰​​</a></td>
+<td style="text-align:center;"><a href='./index'>​✰​🇭​​🇴​​🇲​​🇪​✰​​</a></td>
 <td style="text-align:right;"><a href='./bandit5'>​✰​🇳​​🇪​​🇽​​🇹​✰​​</a></td>
 </tr>
 
