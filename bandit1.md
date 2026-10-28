@@ -56,3 +56,14 @@ From there, we open and read the file with `cat readme`:
 Giving us the password to SSH into level 1.
 
 From here, we need to exit the Level 0 SSH connection and SSH into the Level 1 connection, where we paste the password.
+
+<h2 style="text-align:center;"> ​✰ Navigation ​✰ </h2>
+<table style="width: 100%;">
+<tr>
+<td style="text-align:left;"><a href='./bandit0'>
+​​✰🇵​​🇷​​🇪​​🇻​​​✰</a></td>
+<td style="text-align:center;"><a href='./README'>​✰​🇭​​🇴​​🇲​​🇪​✰​​</a></td>
+<td style="text-align:right;"><a href='./bandit2'>​✰​🇳​​🇪​​🇽​​🇹​✰​​</a></td>
+</tr>
+
+</table>
