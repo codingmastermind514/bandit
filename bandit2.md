@@ -57,3 +57,14 @@ From there, we decided to open and read the file with `cat ./-`.
 Giving us the password to SSH into level 2.
 
 From here, we need to exit the Level 1 SSH connection and SSH into the Level 2 connection, where we paste the password.
+
+<h2 style="text-align:center;"> ​✰ Navigation ​✰ </h2>
+<table style="width: 100%;">
+<tr>
+<td style="text-align:left;"><a href='./bandit1'>
+​​✰🇵​​🇷​​🇪​​🇻​​​✰</a></td>
+<td style="text-align:center;"><a href='./README'>​✰​🇭​​🇴​​🇲​​🇪​✰​​</a></td>
+<td style="text-align:right;"><a href='./bandit3'>​✰​🇳​​🇪​​🇽​​🇹​✰​​</a></td>
+</tr>
+
+</table>

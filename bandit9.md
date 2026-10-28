@@ -111,3 +111,14 @@ Our goal is to find the only unique line. To remove duplicate lines, we use `uni
 As you can see, once we `sort` the file, duplicate entries are adjacent. This can be used in conjunction with `uniq` and a pipeline to remove these duplicates, as such: 
 
 <img src="./img/bandit9-3.png">
+
+<h2 style="text-align:center;"> ​✰ Navigation ​✰ </h2>
+<table style="width: 100%;">
+<tr>
+<td style="text-align:left;"><a href='./bandit8'>
+​​✰🇵​​🇷​​🇪​​🇻​​​✰</a></td>
+<td style="text-align:center;"><a href='./README'>​✰​🇭​​🇴​​🇲​​🇪​✰​​</a></td>
+<td style="text-align:right;"><a href='./bandit10'>​✰​🇳​​🇪​​🇽​​🇹​✰​​</a></td>
+</tr>
+
+</table>

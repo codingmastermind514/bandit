@@ -56,3 +56,14 @@ We first identify the human-readable strings using `strings`. This displays huma
 <img src="./img/bandit10-2.png">
 
 And finally, we have the password!
+
+<h2 style="text-align:center;"> ​✰ Navigation ​✰ </h2>
+<table style="width: 100%;">
+<tr>
+<td style="text-align:left;"><a href='./bandit9'>
+​​✰🇵​​🇷​​🇪​​🇻​​​✰</a></td>
+<td style="text-align:center;"><a href='./README'>​✰​🇭​​🇴​​🇲​​🇪​✰​​</a></td>
+<td style="text-align:right;"><a href='./404'>​✰​🇳​​🇪​​🇽​​🇹​✰​​</a></td>
+</tr>
+
+</table>

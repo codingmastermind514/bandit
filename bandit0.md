@@ -53,3 +53,14 @@ And when we do so, we see the following message:
 This prompts us to enter our password, `bandit0`, and finally, we're in!
 
 <img src="./img/bandit0-2.png">
+
+<h2 style="text-align:center;"> ​✰ Navigation ​✰ </h2>
+<table style="width: 100%;">
+<tr>
+<td style="text-align:left;"><a href='./404'>
+​​✰🇵​​🇷​​🇪​​🇻​​​✰</a></td>
+<td style="text-align:center;"><a href='./README'>​✰​🇭​​🇴​​🇲​​🇪​✰​​</a></td>
+<td style="text-align:right;"><a href='./bandit1'>​✰​🇳​​🇪​​🇽​​🇹​✰​​</a></td>
+</tr>
+
+</table>

@@ -87,3 +87,14 @@ Giving us the password to SSH into level 4.
 <img src="./img/bandit4-3.png">
 
 From here, we need to exit the Level 3 SSH connection and SSH into the Level 4 connection, where we paste the password.
+
+<h2 style="text-align:center;"> ​✰ Navigation ​✰ </h2>
+<table style="width: 100%;">
+<tr>
+<td style="text-align:left;"><a href='./bandit3'>
+​​✰🇵​​🇷​​🇪​​🇻​​​✰</a></td>
+<td style="text-align:center;"><a href='./README'>​✰​🇭​​🇴​​🇲​​🇪​✰​​</a></td>
+<td style="text-align:right;"><a href='./bandit5'>​✰​🇳​​🇪​​🇽​​🇹​✰​​</a></td>
+</tr>
+
+</table>

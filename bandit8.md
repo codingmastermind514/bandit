@@ -59,3 +59,14 @@ Word     random sequence of characters
 This is an overwhelming amount of information to search through manually. Therefore, we must use `grep` to search for the word "millionth", since we know that the random sequence of characters next to it will be the password. As such, we use a pipeline to string together `cat data.txt` and `grep "millionth"`, opening the file and searching its contents, which gives us the password! 
 
 <img src="./img/bandit8-2.png">
+
+<h2 style="text-align:center;"> ​✰ Navigation ​✰ </h2>
+<table style="width: 100%;">
+<tr>
+<td style="text-align:left;"><a href='./bandit7'>
+​​✰🇵​​🇷​​🇪​​🇻​​​✰</a></td>
+<td style="text-align:center;"><a href='./README'>​✰​🇭​​🇴​​🇲​​🇪​✰​​</a></td>
+<td style="text-align:right;"><a href='./bandit9'>​✰​🇳​​🇪​​🇽​​🇹​✰​​</a></td>
+</tr>
+
+</table>
