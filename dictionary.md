@@ -357,3 +357,36 @@ This would redirect the output of the first command to `confidential.txt`, perha
 ---
 
 &nbsp;
+
+## Encoding and Encryption
+**Encoding** is a way of manipulating text so that it remains generally readable (such as base64). It can be converted back into its original data without a key or password. On the other hand, **encryption** is a way of manipulating data such that you need a public and/or private key to convert it back to the original text. 
+
+In other words, *encoding* is for "rephrasing" data; *encryption* is for protecting it.
+
+### `base64`
+Some systems were built for plain text *only*, like emails, URLs, and JSON. Raw `bytes` from an image, executable, or program can break them. `base64` encodes binary data using only **64** safe characters. The `base64` command, thus, encodes or decodes data to and from `base64` and `ASCII`. 
+
+<p align="center">
+<code>
+base64 -d encoded.txt
+</code>
+</p>
+
+A few things to note: 
+
+1. **Default Behavior** <br> The default behavior for `base64` is to encode. By adding the `-d` option, you can have it decode.
+
+2. **File Names** <br> `base64` accepts file names.
+
+3. **Padding** <br> `base64` converts from ASCII in groups of 3 bytes (letters). For each missing byte (letter), we add one equal sign (=) to the end.
+
+Here is the full set of characters within `base64`:
+
+| Value | Characters |
+| ---- | ---- |
+| 0 → 25 | A → Z |
+| 26 → 51 | a → z |
+| 52 → 61 | 0 → 9 |
+| 62, 63 | + and / |
+| padding | = |
+ 

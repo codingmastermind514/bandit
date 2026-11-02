@@ -5,7 +5,7 @@ This is the solution to OverTheWire's Bandit Level 9→10.
 
 The solution command is:
 ```bash
-strings -n 8 | grep "========" 
+strings -n 8 data.txt | grep "========" 
 ``` 
 ## Instructions
 This level asks:
@@ -63,7 +63,7 @@ And finally, we have the password!
 <td style="text-align:left;"><a href='./bandit9'>
 ​​✰🇵​​🇷​​🇪​​🇻​​​✰</a></td>
 <td style="text-align:center;"><a href='./index'>​✰​🇭​​🇴​​🇲​​🇪​✰​​</a></td>
-<td style="text-align:right;"><a href='./404'>​✰​🇳​​🇪​​🇽​​🇹​✰​​</a></td>
+<td style="text-align:right;"><a href='./bandit11'>​✰​🇳​​🇪​​🇽​​🇹​✰​​</a></td>
 </tr>
 
 </table>
