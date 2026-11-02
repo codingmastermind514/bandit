@@ -99,3 +99,11 @@ Here is the full list of walkthroughs, last updated on 26.10.2026. The full dict
 </b> 
     <i>Using <code>strings</code>.</i>
 </p>
+
+<p style='font-size:14px'>
+<b>
+    <img src = "./img/minecraft/lapis.png" height=20 style='margin-bottom:-5'>  
+    <a href='./bandit11'>Level 10→11</a>.
+</b> 
+    <i>Introduction to <code>base64</code>.</i>
+</p>
