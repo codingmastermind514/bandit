@@ -6,9 +6,11 @@ OverTheWire is a free online platform with several 'wargames' that are designed 
 
 This walkthrough, which is a work-in-progress, acts as an ongoing record of my learning and as my notes.
 
+> Disclaimer: passwords will be blurred out from images and ommited from solutions as this violates OverTheWire's ethics policy, which explicitly states not to post passwords.
+
 ### Walkthroughs
 
-Here is the full list of walkthroughs, last updated on 2.11.2026. The full dictionary of commands needed for this walkthrough is linked below.
+Here is the full list of walkthroughs, last updated on 7.11.2026. The full dictionary of commands needed for this walkthrough is linked below.
 
 [Command dictionary](./dictionary)
 
@@ -103,6 +105,14 @@ Here is the full list of walkthroughs, last updated on 2.11.2026. The full dicti
 <p style='font-size:14px'>
 <b>
     <img src = "./img/minecraft/lapis.png" height=20 style='margin-bottom:-5'>  
+    <a href='./bandit11'>Level 10→11</a>.
+</b> 
+    <i>Introduction to <code>base64</code>.</i>
+</p>
+
+<p style='font-size:14px'>
+<b>
+    <img src = "./img/minecraft/axolotl.png" height=20 style='margin-bottom:-5'>  
     <a href='./bandit11'>Level 10→11</a>.
 </b> 
     <i>Introduction to <code>base64</code>.</i>

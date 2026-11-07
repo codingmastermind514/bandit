@@ -363,6 +363,12 @@ This would redirect the output of the first command to `confidential.txt`, perha
 
 In other words, *encoding* is for "rephrasing" data; *encryption* is for protecting it.
 
+&nbsp;
+
+---
+
+&nbsp;
+
 ### `base64`
 Some systems were built for plain text *only*, like emails, URLs, and JSON. Raw `bytes` from an image, executable, or program can break them. `base64` encodes binary data using only **64** safe characters. The `base64` command, thus, encodes or decodes data to and from `base64` and `ASCII`. 
 
@@ -389,4 +395,45 @@ Here is the full set of characters within `base64`:
 | 52 → 61 | 0 → 9 |
 | 62, 63 | + and / |
 | padding | = |
- 
+
+&nbsp;
+
+---
+
+&nbsp;
+
+### `tr`
+`tr` stands for **translate**. When given two sets of letters, it swaps characters one for one. It reads text from standard input, so it **must** be used with a `pipeline` or `redirection`. `tr` works on single characters. It can't replace words.
+
+<p align="center">
+<code>
+echo 'hello' | tr 'el' 'ip'
+</code>
+</p>
+
+The above command would give us the string 'hippo'. This is because the 'e' would get swapped with an 'i', and the 2 'l's would get swapped with 'p's.
+
+#### Ranges in `tr`:
+A dash between 2 characters means everything from one to the other. For example, `a-z` would mean all of the characters from lowercase **a** to lowercase **z**. Ranges can also be chained, like this: `a-zA-Z` would be everything from a to z, then A to Z.
+
+
+&nbsp;
+
+---
+
+&nbsp;
+
+###  Caesar Cipher
+A caesar cipher is a method of encryption which Julius Caesar famously used with his correspondents. It works by rotating the alphabet $n$ positions forward, where $n$ is an integer.
+
+For example: 
+
+| n | A | B | C | D | ... | Z |
+| -- | -- |-- | -- | -- | -- | -- | 
+| 1 | B | C | D | E | ... | A |
+| 2 | C | D | E | F | ... | B |
+| 3 | D | E | F | G | ... | C |
+| ... |... |... | ... |... |... | ... |
+| 13 | N | O | P | Q | ... | M |
+
+The main weakness of the Caesar cipher is that it can be decoded very easily. You can very easily brute force a Caesar cipher because there are only 26 possibilities for the key.  

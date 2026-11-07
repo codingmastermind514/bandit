@@ -14,7 +14,6 @@ This level asks:
 ## Background
 See <a href='./dictionary'>`dictionary.md`</a> for a full list of commands.
 
-**Previous Commands:** `strings`, `grep`
 
 ### `base64`
 Some systems were built for plain text *only*, like emails, URLs, and JSON. Raw `bytes` from an image, executable, or program can break them. `base64` encodes binary data using only **64** safe characters. The `base64` command, thus, encodes or decodes data to and from `base64` and `ASCII`. 
@@ -70,7 +69,7 @@ As stated in the level instructions, the text in `data.txt` is encoded using the
 <td style="text-align:left;"><a href='./bandit10'>
 ​​✰🇵​​🇷​​🇪​​🇻​​​✰</a></td>
 <td style="text-align:center;"><a href='./index'>​✰​🇭​​🇴​​🇲​​🇪​✰​​</a></td>
-<td style="text-align:right;"><a href='./404'>​✰​🇳​​🇪​​🇽​​🇹​✰​​</a></td>
+<td style="text-align:right;"><a href='./bandit12'>​✰​🇳​​🇪​​🇽​​🇹​✰​​</a></td>
 </tr>
 
 </table>
