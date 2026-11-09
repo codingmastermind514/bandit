@@ -115,5 +115,5 @@ Here is the full list of walkthroughs, last updated on 7.11.2026. The full dicti
     <img src = "./img/minecraft/axolotl.png" height=20 style='margin-bottom:-5'>  
     <a href='./bandit12'>Level 11→12</a>.
 </b> 
-    <i>Introduction to <code>base64</code>.</i>
+    <i>Using <code>ROT-13</code> ciphers.</i>
 </p>

@@ -14,7 +14,7 @@ This level asks:
 ## Background
 See <a href='./dictionary'>`dictionary.md`</a> for a full list of commands.
 
-**Previous Commands:** `base64`
+**Previous Commands:** `cat`
 
 ### `tr`
 `tr` stands for **translate**. When given two sets of letters, it swaps characters one for one. It reads text from standard input, so it **must** be used with a `pipeline` or `redirection`. `tr` works on single characters. It can't replace words.
